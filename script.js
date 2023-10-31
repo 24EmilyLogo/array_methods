@@ -4,20 +4,28 @@ var arrayLength = numbers.length;
 console.log(arrayLength)
 
 //push
-var names = ["Beep", "boop", "gloop", "Ploop"];
-names.push("Bloop");
-console.log(names)
-    //not quite the way they want :/ :(
+    // var names = ["Beep", "boop", "gloop", "Ploop"];
+    // names.push("Bloop");
+    // console.log(names)
+
 var boop = ["gloop", "bloop", "blop"]
-for (var i = 0; i < 1; i++){
-    boopBop = boop + ",bop"
-}
-console.log(boopBop)
+    //boopBop = boop + ",boop"
+boop[boop.length] = "boop"
+console.log(boop)
 
 //pop
 var names1 = ["Beep", "boop", "gloop", "Ploop", "Bloop"];
 names1.pop();
 console.log(names1)
+
+var blep = ["ploop", "bloop", "boop", "beep"]
+ function popButNot(blep){
+     let beep = []
+     for (let i = 0; i < blep.length - 1; i++){
+         beep [i] = blep[i]
+     }
+};
+console.log(beep)
 
 //toString
 var names2 = ["Beep", "boop", "gloop", "Ploop", "Bloop"];
